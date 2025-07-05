@@ -1,1 +1,60 @@
 /*  your css code here. If applicable */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#questions > div {
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#questions p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+#submit, #reset {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#submit:hover, #reset:hover {
+  background-color: #0056b3;
+}
+
+#score {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
